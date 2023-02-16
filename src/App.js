@@ -9,9 +9,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/*<Greet />*/}
+        <Greet name="Bruce" heroName="Batman"><p>This is children props</p></Greet>
+        <Greet name="Clark" heroName="Superman">
+          <button>Action</button>
+        </Greet>
+        <Greet name="Diana" heroName="Wonder Woman"/>
         {/*<Welcome />*/}
-        <Hello />
+       {/* <Hello />*/}
       </div>
     );
   }
