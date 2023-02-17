@@ -12,6 +12,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
+//import Person from './components/Person';
 
 class App extends Component {
   render() {
